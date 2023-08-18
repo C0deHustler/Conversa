@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Conversa</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Scripts CDN Links (HTML) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    <!-- Font Awesome CDN Link -->
+    <script
+      src="https://kit.fontawesome.com/eef6d6e9d2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts CDN Links (Javascript) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid1">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Conversa</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class = "big-heading">Meet new and interesting people nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+
+          <div class="col-lg-6 col-sm-12">
+            <img class="title-image" src="images/influencer.png" alt="pic1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container-fluid2">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <img class="featuresPic" src="images/news.png" alt="pic2" />
+            <h3 class = "feature-title">News Feed</h3>
+            <p class="feature">
+              Stay Connected, Stay Informed: <br />Your Real-time Window to the
+              World.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <img class="featuresPic" src="images/chat.png" alt="pic3" />
+            <h3 class = "feature-title">Social Interaction</h3>
+            <p class="feature">
+              Connect, Engage, Inspire: <br />Share Life's Moments Together -
+              Your Social Hub for Meaningful Interactions
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-sm-12">
+            <img class="featuresPic" src="images/file-sharing.png" alt="pic4" />
+            <h3 class = "feature-title">Multimedia Sharing</h3>
+            <p class="feature">
+              Unleash Your Creativity: <br />Connect, Express, and Share Moments
+              with Our Dynamic Multimedia Sharing Experience!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class = "testimonial-text">
+              Conversa is my happy place online! It's like a virtual party where
+              friends connect, laugh, and share endless smiles! #LoveIt
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/Hammad2.jpg"
+              alt="hammad-profile"
+            />
+            <em>Hammad, Lucknow</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class = "testimonial-text">
+              Absolutely love Conversa! It's informative, fun, and easy to use.
+              Connecting with friends has never been more enjoyable!
+              #SocialMediaPerfection
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/Hamza.jpg"
+              alt="hamza-profile"
+            />
+            <em>Hamza, Lakhimpur-Kheri</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/press-ht.png" alt="ht-logo" />
+      <img class="press-logo" src="images/press-toi.png" alt="toi-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/press-voxx.png" alt="vox-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2 class = "section-heading">A Plan for Every Person's Needs</h2>
+      <p>Simple and affordable price plans for you and your loved ones.</p>
+
+      <div class="row">
+        <div class="column-pricing col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class = "pricing-title">Starter Package</h3>
+            </div>
+            <div class="card-body">
+              <h2 class = "price-text">Free</h2>
+              <p>Unlimited App Usage</p>
+              <p>Basic Analytics</p>
+              <p>Ads included</p>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-pricing col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class = "pricing-title">Influencer Package</h3>
+            </div>
+            <div class="card-body">
+              <h2 class = "price-text">Rs. 99 / month</h2>
+              <p>Advanced Profile Customization</p>
+              <p>Social Listening</p>
+              <p>Hashtag Tracking</p>
+              <button type="button" class="w-100 btn btn-lg btn-dark">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="column-pricing col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class = "pricing-title">Pro-Branding Package</h3>
+            </div>
+            <div class="card-body">
+              <h2 class = "price-text">Rs. 199 / month</h2>
+              <p>Team Collaboration</p>
+              <p>Audience Segmentation</p>
+              <p>Ad Campaign Management</p>
+              <button type="button" class="w-100 btn btn-lg btn-dark">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="big-heading">
+        Time to Socialize and make <br />New Friends Today. <br />Hurry Up !!!
+      </h3>
+
+      <div class="last-download-button">
+        <button type="button" class="btn btn-dark btn-lg download-button">
+          <i class="fa-brands fa-apple"></i> Download
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-lg download-button"
+        >
+          <i class="fa-brands fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="f-pics fa-brands fa-twitter"></i>
+      <i class="f-pics fa-brands fa-facebook"></i>
+      <i class="f-pics fa-brands fa-instagram"></i>
+      <i class="f-pics fa-solid fa-envelope"></i>
+
+      <p>© Copyright Conversa</p>
+    </footer>
+  </body>
+</html>
